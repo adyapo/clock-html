@@ -1,0 +1,31 @@
+button {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    width: 75px;
+    height: 75px;
+    background-color: #94c994;
+    border: 1px solid #000000;
+    border-radius: 5px; /* sau orice alta valoare pentru raza dorita */
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.line {
+    display: flex;
+}
+
+#result {
+    font-size: 30px;
+    font-weight: bold;
+    border: 1px solid black;
+    background-color: green;
+    width: 300px; /* sau orice alta valoare care sa se potriveasca cu dimensiunea butoanelor de deasupra */
+    height: 75px; /* sau orice alta valoare care sa se potriveasca cu dimensiunea butoanelor de deasupra */
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px; /* sau orice alta valoare pentru raza dorita */
+    line-height: 40px; /* aceeasi valoare ca inaltimea */
+    vertical-align: middle;
+  }
+  
